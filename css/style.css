@@ -1,0 +1,565 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+
+body{
+ 
+font-family: 'Montserrat', sans-serif;
+
+
+}
+h1,h2,h3,h4,h5,h6,p,ul,li{
+    padding: 0;
+    margin: 0;
+}
+a,a:hover{
+    text-decoration: none;
+}
+.backgrround{
+    background:url(../image/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: white;
+    padding: 12px 13px;
+    text-transform:uppercase;
+    font-size: 14px;
+  font-weight: 400;
+
+}
+.navbar-nav .nav-item .nav-link:hover{
+
+    color: skyblue;
+}
+
+.navbar-nav .nav-item .nav-link.active{
+    color: white;
+}
+.navbar-nav .nav-item .nav-link.active:hover{
+ color: skyblue;
+}
+.checksearch button{
+    position: absolute;
+    margin-left: 190px;
+    color:darkgray
+}
+.checksearch button:focus{
+  box-shadow:none;
+}
+.checksearch input{
+    border-radius: 25px;
+  
+}
+.checksearch input:focus{
+    box-shadow:none;
+}
+
+.backgrround{
+    background: url(../image/back.jpg);
+    background-repeat: no-repeat;
+    background-position:right center;
+    background-size: cover;
+      height:660px;
+}
+
+.head_text{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    margin-top: 160px;
+}
+.head_text h1{
+    color: white;
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+}
+.head_text h1:after{
+position: absolute;
+    content: "";
+    bottom: -44px;
+    left: 246px;
+    width: 110px;
+    height: 1px;
+    background-color:#36b9eb;
+}
+.head_text p{
+    color: #cccccc;
+    font-size: 20px;
+    font-weight: 400;
+    width: 90%;
+    margin: auto;
+    margin-top: 106px;
+}
+.core{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.core_heaad h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+}
+.core_heaad h1:after{
+       position: absolute;
+    content: "";
+    bottom:-25px;
+    left: 499px;
+    height: 2px;
+    width: 115px;
+    background-color:#35c2f8;
+}
+.core_service{
+    text-align: center;
+    padding: 60px 0px; 
+}
+.core_service h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.core_service p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #888888;
+    
+}
+.core_service img{
+     transition: all linear .3s;
+}
+.core_service img:hover{
+    transform: scale(2.1);
+    transition: all linear .3s;
+}
+.about_us{
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.expertise{
+    background-color: #f7f7f7;
+    padding-top: 60px;
+    padding-bottom:85px;
+    position: relative;
+}
+.expertise_head p{
+
+}
+.expertise_head p{
+    color: #777777;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 45px;
+    margin-top: 30px
+}
+.expertise_head h1{
+   
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.custom1 h4{
+    font-size: 15px;
+    font-weight: 600;
+    color: #222222;
+    text-transform: uppercase;
+}
+.custom1 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+    margin-top: 12px;
+}
+.pad{
+    margin-bottom: 30px;
+}
+/*
+.hand_img{
+    background: url(../image/HAND.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 615px;
+
+}
+*/
+.hand_img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.button a{
+    background-color: white;
+    padding: 15px 35px;
+    border-radius: 25px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+        transition: all linear .3s;
+}
+.button a:hover{
+    background-color: black;
+    color: white;
+    transition: all linear .3s;
+}
+.button{
+   margin-top: 30px;
+}
+.expertise1{
+    background-color: #ffffff;
+    padding-top: 60px;
+     padding-bottom: 20px;
+    position: relative;
+}
+
+.expertise1_head p{
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 35px;
+    margin-top: 30px
+}
+.expertise1_head h1{
+   
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.pad2{
+    margin-bottom: 30px;
+ 
+}
+.custom2{
+    padding-left:30px;
+}
+.custom2 h4{
+    font-size: 15px;
+    font-weight: 600;
+    color: #222222;
+    text-transform: uppercase;
+}
+.custom2 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+    margin-top: 12px;
+}
+.mobile_img{
+    position: absolute;
+    top: 45px;
+    right: 0px;
+    bottom: 0px;
+}
+.port_img{
+    background: url(../image/portoimage.png);
+    background-repeat: no-repeat;
+    background-position: center 105px;
+
+}
+.gallery_content img:hover {
+
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.about_heaad h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+    position: relative;
+}
+.about_heaad h1:after{
+    position: absolute;
+    content: "";
+    bottom: -25px;
+    left: 499px;
+    height: 2px;
+    width: 115px;
+    background-color:#35c2f8;
+}
+.left_content{
+    text-align: right;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.left_content h4{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #222222;
+    line-height: 20px;
+}
+.left_content p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+    line-height: 25px;
+  
+}
+.right_content{
+    text-align: left;
+    margin-top: 50px;
+margin-bottom: 50px;
+    margin-left: 15px;
+}
+.right_content h4{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #222222;
+    line-height: 20px;
+}
+.right_content p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+    line-height: 25px;
+      
+}
+.us_img{
+    margin:50px 0px;
+    position: relative;
+  
+}
+.us_img:after{
+  position: absolute;
+    content: "";
+    bottom: -104px;
+    left: 90px;
+    height: 110px;
+    width: 2px;
+    background-color: #f1f1f1;
+        z-index: -1;
+}
+.us_img img{
+ 
+    transition: all linear .3s;
+}
+.us_img img:hover{
+    transform: scale(1.1);
+    transition: all linear .3s;
+    
+}
+.border_hide:after{
+     background-color:transparent;
+}
+.team{
+    background-color: #f7f7f7;
+    padding: 60px 0px;
+}
+.team_head h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+    position: relative;
+}
+.team_head h1:after{
+    position: absolute;
+    content: "";
+    bottom: -25px;
+    left: 499px;
+    height: 2px;
+    width: 115px;
+    background-color:#35c2f8;
+}
+.team_info{
+    text-align: center;
+}
+.team_info h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #222222;
+    margin-top: 20px;
+}
+.team_info p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.team_info img{
+    border: 3px solid rgba(0,0,0,.1);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+     transition: all linear .3s;
+}
+.team_info img:hover{
+    transform:scale(1.1);
+    transition: all linear .3s;
+     border: 3px solid skyblue;
+}
+.team_info span{
+    margin-top: px;
+}
+.team_info span i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    margin: 0px 5px;
+    color: white;
+}
+.team_info span i:hover{
+    color: black
+}
+.team_info span i:nth-child(1){
+    background-color: skyblue;
+}
+.team_info span i:nth-child(2){
+    background-color: dodgerblue
+}
+.team_info span i:nth-child(3){
+    background-color: #E60023;
+}
+.botoom{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+.botoom p{
+    font-size:16px ;
+    font-weight:400 ;
+    color:#777777 ;
+}
+.img_icon p i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.img_icon .fa-mobile-alt{
+  color: deeppink;
+}
+.img_icon .fa-envelope{
+  color: white;
+}
+.img_icon .fa-twitter{
+  color: skyblue;
+}
+.img_icon .fa-facebook-f{
+  color: dodgerblue;
+}
+.img_icon .fa-medium-m{
+  color: white;
+}
+.img_icon .fa-pinterest-p{
+  color: red;
+}
+.contact{
+    background-color: #111111;
+    color: white;
+    padding-top:80px;
+    padding-bottom: 60px;
+}
+.contact_content h1{
+    text-align: left;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    position: relative;
+}
+.contact_content p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.needpad{
+    margin-bottom: 20px;
+}
+.needpad p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.content_mail{
+    width: 80%;
+    margin: auto;
+}
+.content_mail form input,textarea{
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.content_mail form textarea{
+    resize: none;
+    display: block;
+    height: 130px
+}
+.content_mail form textarea::placeholder{
+ font-size: 14px;
+    font-weight: 500;
+    color: #bbbbbb;
+    
+}
+.content_mail form input::placeholder{
+    color: #bbbbbb;   
+}
+.content_mail form button{
+    padding: 14px 30px;
+    border-radius: 25px;
+    border:none;
+    background-color: #35c2f8;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all linear .3s;
+    outline: 0;
+}
+.content_mail form button:hover{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    transition: all linear .3s;
+    border: none;
+}
+.bottom_bottom{
+    background-color: #111111;
+    color: white;
+}
+
+.below_bottom p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 30px 0px;
+    border-top: 1px solid white;
+}
