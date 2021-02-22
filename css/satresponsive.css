@@ -23,6 +23,12 @@
     background-size: cover;
     height: 550px;
     }
+.mobile_img{
+
+
+   height: 290px;
+
+}
 
     .head_text h1{
         width: 100%;
@@ -56,20 +62,41 @@
     left: 88px;
     }
 
-    .hand_img{
-        display: none;
-    }
+  .hand_img{
+    background: url(../image/HAND.jpg);
+      
+    background-position: center;
+    background-size: cover;
+    height: 616px;
+
+}
     .expertise {
     text-align: center;
+        padding-bottom: 0px;;
     }
+    .mole{
+        padding: 0px;
+        padding: 0px 10px;
+    }
+    .port_img{
+              padding: 0px;
+        padding: 0px 10px;
+    }
+    .button{
+        padding-bottom: 60px;
+    }
+    
     .image1,.image2{
         margin-bottom: 20px;
     }
     .mobile_img{
-        display: none;
+        display: block;
     }
     .expertise1{
         text-align: center;
+    }
+    .expertise_head h1{
+        padding-top: 40px;
     }
     .about_us {;
     text-align: center;
@@ -95,7 +122,9 @@
         margin: 0px;
         margin-top: 20px;
     }
+   
     
+
     .left_content {
     margin-bottom: 20px;
     }
@@ -180,6 +209,18 @@
     .about_heaad h1:after{
             left: 186px;
     }
+    .mole{
+        padding-left: 0px;
+        padding: 20px;
+    }
+    .button {
+  
+    padding-bottom: 80px;
+    }
+    .port_img {
+     padding-left: 0px;
+        padding: 20px;
+    }
     .team_head h1:after{
          left: 186px;
     }
@@ -188,16 +229,19 @@
         padding-bottom: 20px;
     }
     .hand_img{
-        display: none;
+        display: block;
     }
-    .expertise{
-        text-align: center;
+ 
+    .expertise {
+   text-align: center;
+    padding-bottom: 0px;
+    padding-top: 40px;
     }
     .image1{
         padding: 15px;
     }
     .mobile_img{
-        display: none;
+        display: block;
     }
     .expertise1{
         text-align: center;
@@ -261,6 +305,13 @@
     .image2 img{
         padding: 20px 0px;
     }
+    .mobile_img {
+    background: url(../image/mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 520px;
+    }
 }
     
 
@@ -297,7 +348,34 @@
     }
 
     .hand_img{
-        display: none;
+        display: block;
+    }
+    .expertise{
+        padding-bottom: 0px;
+    }
+    .button{
+             padding-bottom: 70px;
+    }
+    .mole{
+        padding: 0px 50px ;
+        padding-top: 70px;
+    }
+    .port_img{
+             padding: 20px 50px ;
+     
+    }
+    .expertise1{
+        padding-bottom: 0px;
+    }
+        .mobile_img {
+    background: url(../image/mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 655px;
+    }
+    .index{
+        padding: 0px;
     }
     .expertise_head{
       text-align: center
@@ -306,7 +384,7 @@
         text-align: center;
     }
     .mobile_img{
-        display: none;
+        display: block;
     }
     .expertise1_head h1{
         text-align: center;
@@ -379,19 +457,21 @@
     }
     .button{
         text-align: center;
+        margin-top: 80px;
+  
     }
   .hand_img img {
     height: 825px;
     }
     .expertise1_head h1 {
-    font-size: 37px;
+    font-size: 35px;
     }
     .mobile_img img{
         height: 640px
     }
     .mobile_img {
-        width: 540px;
-        top: 25px;
+        width: 496px;
+      
     }
     .about_heaad h1:after {
             left: 396px;
@@ -427,20 +507,115 @@
         left: 399px;
     }
 
-    
+    .hand_img{
+    background: url(../image/HAND.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 706px;
 
+}
+.mole {
+       padding-left: 0px;
+    padding: 0px 40px;
+    padding-top: 60px;
+    }
+    .port_img{
+              padding-left: 0px;
+    padding: 0px 40px; 
+    }
+    .pad {
+    margin-bottom: 20px;
+    }
+    
+    .expertise_head p {
+    margin-bottom: 30px;
+    margin-top: 25px;
+    }
+    
+    .custom1{
+        padding-left: 40px;
+    } 
+    .expertise{
+        padding-bottom: 0px;
+    }
+
+     .mobile_img {
+    background: url(../image/mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+   height: 615px;
+    }
+    
 }
     
     
 
-/*    xl*
+/*    xl */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
    
+.mole {
+    padding-left:0px;
+    padding-left: 50px;
+    }
 
-
-    
+.expertise {
+  
+    padding-bottom: 0px;
+    }
+    .expertise_head p {
+        margin-bottom: 30px;
+    }
+.port_img {
+    padding-left: 50px;
+    }
+    .port_img {
+    background: url(../image/portoimage.png);
+    background-repeat: no-repeat;
+    background-position: center 175px;
+    background-size:auto;
 }
-    
+    .expertise1_head h1 {
+    font-size: 36px;
+    }
+    .us_img{
+        text-align: center;
+    }
+    .us_img:after {
+        left: 175px;
+            bottom: -117px;
+    height: 135px;
+    }
+    .head_text h1:after {
+        left: 265px;
+    }
 
-@media (min-width: 1400px) {
-    .
+.left_content h4 {
+  
+    font-size: 20px;
+    margin-bottom: 25px;
+    
+    }
+    .left_content p {
+  
+    font-size: 15px
+    }
+    .right_content h4 {
+  
+    font-size: 20px;
+    margin-bottom: 25px;
+    
+    }
+    .right_content p {
+  
+    font-size: 15px
+    }
+   
+   
+/*    XXL device*/
+    @media (min-width: 1400px) 
+ 
+
+        
+   
+    
