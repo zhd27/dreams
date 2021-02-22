@@ -610,6 +610,11 @@
   
     font-size: 15px
     }
+     .right_content {
+
+     margin-left: 15px;
+    }   
+}
    
    
 /*    XXL device*/
