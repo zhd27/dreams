@@ -133,7 +133,12 @@
     margin-bottom: 0px;
     }
     .us_img:after {
-    left: 145px;
+        left: 0px;
+    bottom: -291px;
+    height: 135px;
+    right: 0px;
+    top: 0px;
+    margin: auto;
     }
     .imgages02:after {
     left: 145px;
@@ -582,10 +587,17 @@
         text-align: center;
     }
     .us_img:after {
-        left: 175px;
-            bottom: -117px;
+         left: 0px;
+    bottom: -291px;
     height: 135px;
+    right: 0px;
+    top: 0px;
+    margin: auto;
     }
+    
+
+    
+    
     .head_text h1:after {
         left: 265px;
     }
@@ -610,17 +622,15 @@
   
     font-size: 15px
     }
-     .right_content {
+    .right_content {
 
      margin-left: 15px;
-    }   
-}
-   
+    }
    
 /*    XXL device*/
     @media (min-width: 1400px) 
  
 
-        
+      
    
     
