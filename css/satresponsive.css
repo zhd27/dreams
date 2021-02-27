@@ -574,6 +574,14 @@
 .port_img {
     padding-left: 50px;
     }
+    .hand_img {
+    background: url(../image/HAND.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+    }
+    
     .port_img {
     background: url(../image/portoimage.png);
     background-repeat: no-repeat;
@@ -627,10 +635,42 @@
      margin-left: 15px;
     }
    
-/*    XXL device*/
-    @media (min-width: 1400px) 
+
+@media (min-width: 1400px){
+                .head_text h1:after {
+            position: absolute;
+            content: "";
+            bottom: -44px;
+            left: 282px;
+            width: 110px;
+            height: 1px;
+            background-color: #36b9eb;
+}
+        
+        .expertise {
+        padding-bottom: 0px;
+    }
+        
+      .hand_img {
+            background: url(../image/HAND.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 702px;
+        }
+    .core_heaad h1:after {
+            position: absolute;
+            content: "";
+            bottom: -25px;
+            left: 582px;
+            height: 2px;
+            width: 115px;
+            background-color: #35c2f8;
+}
+         
+    }
  
 
-      
+        
    
-    
+  
